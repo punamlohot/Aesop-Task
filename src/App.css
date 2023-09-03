@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  color:black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.GreyBar{
+  background-color:rgb(169, 173, 127);
+  height:40px;
+  
+}
+.BlackBar{
+  background-color: black;
+  height:40px;
+}
+
+@media screen and (max-width:1000px){
+  .GreyBar{
+    height:80px;
+    
+  }
+  .BlackBar{
+    height:80px;
+  }
+  /* #leftlabels{
+    display:none;
+  }
+  #rightlabels{
+    display:none;
+  } */
+}
+
+.link1{
+  text-decoration:none;
+  color:black;
+}
+.link2{
+  text-decoration:none;
+  color:white;
+}
+.link1:hover{
+  text-decoration:underline;
+}
+.link2:hover{
+  text-decoration:underline;
+}
+.backgroundDiv{
+  background: url("https://i.pinimg.com/originals/07/8e/28/078e285745b6a49793528be2a7cf51c3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600px;
+  position:relative;
+}
+.textDiv{
+  position:absolute;
+  margin-top:200px;
+  margin-left:50px;
+  height:300px;
+  width:400px;
+  text-align:left;
+  color:white;
+
+}
+#barbutton{
+  width:300px;
+  height:60px;
+  text-align: left;
+  border-radius:10px;
+  color:white;
+}
+#arrow{
+  margin-left:80px;
+}
+
+#logo{
+  display:none;
+}
+@media screen and (max-width:576px){
+  #logo{
+    display:inline;
+  }
+  #rightlabels{
+    display:none;
+  }
+  #leftlabels{
+    display:none;
+  }
+}
+#cart:hover{
+  text-decoration:underline;
+}
+
+.footer{
+  background-color: rgb(20, 18, 18);
+  color:white;
+}
+
+.inp{
+  width:400px;
+  border:1px solid white;
+  background-color:black;
+  color:white;
+}
+
+.HongKong{
+  color:white;
+}
+
+input[type="email"] {
+  padding-right: 20px;
+  background: url('https://app.kortext.com/Images/white-arrow-right.png') no-repeat right center;
+  background-size: 16px;
+}
